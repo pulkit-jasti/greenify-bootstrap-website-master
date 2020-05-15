@@ -139,9 +139,11 @@ header nav{
 .section-2{
     min-height: 100vh;
     background-color: white;
+    overflow: visible !important;
 }
 
 .section-2 .title-container h2{
+    font-size: 4rem;
     margin-top: 60px;
     font-weight: 700;
 }
@@ -149,24 +151,23 @@ header nav{
 .section-2 .title-container h4{
     margin-bottom: 60px;
 }
-/*
+
 .section-2 .row{
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .section-2 .row .col-md-4 .card{
-    border: none;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    min-height: 350px;
-    overflow: hidden;
-}
-*/
-.col-md-4{
-    background-color: lightblue;
+    margin: 40px auto;
+    transform: scale(1.05,1.05);
+    transition-property: all;
+    transition-duration: 150ms;
 }
 
-.card{
-    background-color: lightcoral;
+.section-2 .row .col-md-4 .card:hover{
+    transform: scale(1,1);
+    box-shadow: none;
 }
 
 
