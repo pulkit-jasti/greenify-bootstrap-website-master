@@ -79,6 +79,7 @@ header nav{
 }
 
 .content{
+    text-align: center;
 }
 
 .content h1{
@@ -86,6 +87,11 @@ header nav{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 700;
+}
+
+.content p{
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -104,12 +110,12 @@ header nav{
 
 .section-3{
     min-height: 100vh;
-    background-image: url('https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-attachment: fixed;
 }
 
 .section-4{
     min-height: 100vh;
-    background-color: lightblue;
+    background-color: white
 }
