@@ -32,7 +32,7 @@ header nav{
 }
 
 .navbar-nav{
-    background-color: rgba(80, 80, 80, 0.678);
+    background-color: rgba(80, 80, 80, 0.6);
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
@@ -47,12 +47,12 @@ header nav{
     position: absolute;
     top: 0;
     right: 0;
+    color: white !important;
 }
 
 .nav-item{
     font-size: 16px;
     font-weight: 600;
-    border-radius: 50px !important;
     text-align: center;
     min-width: 90px;
 }
@@ -94,7 +94,36 @@ header nav{
     font-size: 20px;
 }
 
+.content .btn-container{
+    margin-top: 50px;
+}
 
+.content .btn-container .btn{
+    padding: 10px;
+    min-width: 120px;
+    background-color: rgba(100, 100, 100, 0.65);
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    transition-duration: 150ms;
+    transition-property: all;
+    transform: scale(1.1,1.1);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5);
+}
+
+.content .btn-container .btn:hover{
+    background-color: rgba(80, 80, 80, 0.9);
+    color: white;
+}
+
+.content .btn-container .btn:active{
+    transform: scale(1,1);
+    box-shadow: none;
+}
+
+.content .btn-container .btn-1{
+    margin-right: 40px;
+}
 
 
 
