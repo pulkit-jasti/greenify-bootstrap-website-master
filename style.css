@@ -26,7 +26,7 @@ header{
 .section-1{
     background-image: url('https://images.pexels.com/photos/808510/pexels-photo-808510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     min-height: 100vh;
     position: relative;
 }
@@ -154,7 +154,7 @@ header nav{
 
 .section-2 .container .row{
     margin-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .section-2 .container .row .col-md-4 .card{
@@ -176,24 +176,57 @@ header nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .section-3{
-    min-height: 100vh;
     background-image: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
 }
+
+.section-3 .container .row{
+    padding-bottom: 50px;
+}
+
+.section-3 .container .title-container{
+    padding: 60px 0 10px 0;
+}
+
+.section-3 .container .title-container h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.section-3 .container .title-container h5{
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+.section-3 .container .row .col-md{
+    min-height: 200px;
+}
+
+.section-3 .container .row .col-md i{
+    font-size: 1.5rem;
+}
+
+.section-3 .container .row .col-md .numbers{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section-4{
     min-height: 100vh;
