@@ -19,6 +19,12 @@ section{
     overflow-x: hidden;
 }
 
+
+
+
+
+/* ------ NAVBAR ------ */
+
 header{
     padding-top: 20px;
 }
@@ -75,6 +81,13 @@ header nav{
     background-color: rgb(240, 240, 240);
     color: black !important;
 }
+
+
+
+
+
+
+/* ------ SECTION-1 ------ */
 
 .section-1 .container-fluid{
     position: absolute;
@@ -134,7 +147,7 @@ header nav{
 
 
 
-
+/* ------ SECTION-2 ------ */
 
 .section-2{
     min-height: 100vh;
@@ -175,6 +188,7 @@ header nav{
 
 
 
+/* ------ SECTION-3 ------ */ 
 
 .section-3{
     background-image: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -220,6 +234,29 @@ header nav{
 
 
 
+/* ------ SECTION-4 ------ */
+
+.section-4 .container{
+    padding: 80px 0;
+}
+
+.section-4 .container .row .col-md{
+    padding: 10px;
+}
+
+.section-4 .container .row .col-md i{
+    font-size: 2rem;
+    margin-right: 20px;
+    color: green;
+}
+
+.section-4 .container .row .col-md .text-wrapper p{
+    margin-top: 15px;
+}
+
+.section-4 .container .row .col-md .text-wrapper h4{
+    text-transform: capitalize;
+}
 
 
 
@@ -228,7 +265,21 @@ header nav{
 
 
 
-.section-4{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-5{
     min-height: 100vh;
-    background-color: white
+    background-color: lightblue;
 }
