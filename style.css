@@ -176,11 +176,13 @@ header nav{
     transform: scale(1.05,1.05);
     transition-property: all;
     transition-duration: 150ms;
+    border:none;
 }
 
 .section-2 .container .row .col-md-4 .card:hover{
     transform: scale(1,1);
     box-shadow: none;
+    border: 1px solid gray;
 }
 
 
@@ -256,6 +258,7 @@ header nav{
 
 .section-4 .container .row .col-md .text-wrapper h4{
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 
@@ -265,8 +268,91 @@ header nav{
 
 /* ------ FOOTER ------ */
 
-.section-5{
-    min-height: 100vh;
-    background-color: lightblue;
+footer{
+    background-color: #2e2e2e;
 }
 
+footer .container .row{
+    padding: 60px 0;
+}
+
+footer .container .row>div{
+    padding: 20px 0;
+}
+
+footer .container .row .col-md-5 h3{
+    font-weight: 700;
+}
+
+footer .container .row .col-md-5 .input-group input{
+    border: none;
+}
+
+footer .container .row .col-md-2 h3{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+footer .container .row .col-md-2 p{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+footer .container .row .col-md-2 i{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-5 .bck{
+    background-image: url('/images/bckgnd.png');
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    
+}
