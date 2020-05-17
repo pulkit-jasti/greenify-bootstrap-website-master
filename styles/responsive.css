@@ -1,0 +1,9 @@
+@media (max-width:1024px){
+    .section-1{
+        background-attachment: scroll;
+    }
+
+    .section-3{
+        background-attachment: scroll;
+    }
+}
